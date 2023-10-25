@@ -19,17 +19,17 @@ function App() {
 
   const generateNewQuote = () => {
     const backgrounds = [
-      "url('https://i.imgur.com/8sMs61a.png')",
-      "url('https://i.imgur.com/ryyWRl2.png')",
-      "url('https://i.imgur.com/3ek4jMu.jpg')",
-      "url('https://i.imgur.com/66zn0T0.jpg')",
-      "url('https://i.imgur.com/RRXOYfc.jpg')",
-      "url('https://i.imgur.com/2nZASCC.jpg')",
-      "url('https://i.imgur.com/NLSgJuc.jpg')",
-      "url('https://i.imgur.com/SS1xIlH.jpg')",
-      "url('https://i.imgur.com/ZvwPkKU.png')",
-      "url('https://i.imgur.com/uzPhUB9.png')",
-      "url('https://i.imgur.com/7rsOE7L.jpg')",
+      ("url('https://i.imgur.com/8sMs61a.png')"),
+      ("url('https://i.imgur.com/ryyWRl2.png')"),
+      ("url('https://i.imgur.com/3ek4jMu.jpg')"),
+      ("url('https://i.imgur.com/66zn0T0.jpg')"),
+      ("url('https://i.imgur.com/RRXOYfc.jpg')"),
+      ("url('https://i.imgur.com/2nZASCC.jpg')"),
+      ("url('https://i.imgur.com/NLSgJuc.jpg')"),
+      ("url('https://i.imgur.com/SS1xIlH.jpg')"),
+      ("url('https://i.imgur.com/ZvwPkKU.png')"),
+      ("url('https://i.imgur.com/uzPhUB9.png')"),
+      ("url('https://i.imgur.com/7rsOE7L.jpg')"),
     ];
 
     let randomIndex = Math.floor(Math.random() * quotes.length);
