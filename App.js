@@ -50,7 +50,7 @@ function App() {
               {randomQuote ? (
                 <>
                   <h5 className="card-title font-weight-bold">
-                      {randomQuote.author ? randomQuote.author.replace('type.fit/*', '') : "No author"}
+                       {randomQuote.author ? randomQuote.author.replace('type.fit/*', '').trim() : "No author"}
                    /* {randomQuote.author || "No author"}*/
                   </h5>
                   <p className="card-text font-italic">
