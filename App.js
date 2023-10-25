@@ -2,7 +2,7 @@ function App() {
   const [quotes, setQuotes] = React.useState([]);
   const [randomQuote, setRandomQuote] = React.useState([]);
   const [background, setBackground] = React.useState(
-    "url('https://i.imgur.com/lwUMwoO.png')"
+    ("url('https://i.imgur.com/lwUMwoO.png')")
   );
 
   React.useEffect(() => {
