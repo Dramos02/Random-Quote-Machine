@@ -2,7 +2,7 @@ function App() {
   const [quotes, setQuotes] = React.useState([]);
   const [randomQuote, setRandomQuote] = React.useState([]);
   const [background, setBackground] = React.useState(
-    "url('./primarybackground.png')"
+    "url('https://imgur.com/lwUMwoO')"
   );
 
   React.useEffect(() => {
@@ -19,17 +19,17 @@ function App() {
 
   const generateNewQuote = () => {
     const backgrounds = [
-      "url('./pixelart1.png')",
-      "url('./pixelart2.jpg')",
-      "url('./pixelart3.png')",
-      "url('./pixelart4.jpg')",
-      "url('./pixelart5.jpg')",
-      "url('./pixelart6.png')",
-      "url('./pixelart7.png')",
-      "url('./pixelart8.jpg')",
-      "url('./pixelart9.jpg')",
-      "url('./pixelart10.jpg')",
-      "url('./pixelart11.jpg')",
+      "url('https://imgur.com/7rsOE7L')",
+      "url('https://imgur.com/8sMs61a')",
+      "url('https://imgur.com/ryyWRl2')",
+      "url('https://imgur.com/3ek4jMu')",
+      "url('https://imgur.com/66zn0T0')",
+      "url('https://imgur.com/RRXOYfc')",
+      "url('https://imgur.com/2nZASCC')",
+      "url('https://imgur.com/NLSgJuc')",
+      "url('https://imgur.com/SS1xIlH')",
+      "url('https://imgur.com/ZvwPkKU')",
+      "url('https://imgur.com/uzPhUB9')",
     ];
 
     let randomIndex = Math.floor(Math.random() * quotes.length);
